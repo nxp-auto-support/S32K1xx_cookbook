@@ -148,29 +148,23 @@ J107. A USB cable can still be connected to the EVB to allow debug to continue. 
  received SPI frame and clear flag. Expected data: 0xFDEF from UJA1169TK/F<br />
 </li>
 <li>Increase counter<br />
- <h2>Pins definitions: </h2>
+ <h2>Pins definitions (connected to UJA1169): </h2>
 </li>
 </ul>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">S32K14x  </th><th class="markdownTableHeadNone">LPSPI1  </th><th class="markdownTableHeadNone">S32K11x  </th><th class="markdownTableHeadNone">LPSPI0   </th></tr>
+<th class="markdownTableHeadNone">S32K14x  </th><th class="markdownTableHeadNone">LPSPI1  </th><th class="markdownTableHeadNone">S32K11x  </th><th class="markdownTableHeadNone">LPSPI0  </th><th class="markdownTableHeadNone">S32K148  </th><th class="markdownTableHeadNone">LPSPI1   </th></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">PTB14  </td><td class="markdownTableBodyNone">LPSPI1_SCK  </td><td class="markdownTableBodyNone">PTB2  </td><td class="markdownTableBodyNone">LPSPI0_SCK   </td></tr>
+<td class="markdownTableBodyNone">PTB14  </td><td class="markdownTableBodyNone">LPSPI1_SCK  </td><td class="markdownTableBodyNone">PTB2  </td><td class="markdownTableBodyNone">LPSPI0_SCK  </td><td class="markdownTableBodyNone">PTA28  </td><td class="markdownTableBodyNone">LPSPI1_SCK   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">PTB15  </td><td class="markdownTableBodyNone">LPSPI1_SIN  </td><td class="markdownTableBodyNone">PTB3  </td><td class="markdownTableBodyNone">LPSPI0_SIN   </td></tr>
+<td class="markdownTableBodyNone">PTB15  </td><td class="markdownTableBodyNone">LPSPI1_SIN  </td><td class="markdownTableBodyNone">PTB3  </td><td class="markdownTableBodyNone">LPSPI0_SIN  </td><td class="markdownTableBodyNone">PTA29  </td><td class="markdownTableBodyNone">LPSPI1_SIN   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">PTB16  </td><td class="markdownTableBodyNone">LPSPI1_SOUT  </td><td class="markdownTableBodyNone">PTB4  </td><td class="markdownTableBodyNone">LPSPI0_SOUT   </td></tr>
+<td class="markdownTableBodyNone">PTB16  </td><td class="markdownTableBodyNone">LPSPI1_SOUT  </td><td class="markdownTableBodyNone">PTB4  </td><td class="markdownTableBodyNone">LPSPI0_SOUT  </td><td class="markdownTableBodyNone">PTA27  </td><td class="markdownTableBodyNone">LPSPI1_SOUT   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
-<td class="markdownTableBodyNone">PTB17  </td><td class="markdownTableBodyNone">LPSPI1_PCS3  </td><td class="markdownTableBodyNone">PTB5  </td><td class="markdownTableBodyNone">LPSPI0_PCS0   </td></tr>
+<td class="markdownTableBodyNone">PTB17  </td><td class="markdownTableBodyNone">LPSPI1_PCS3  </td><td class="markdownTableBodyNone">PTB5  </td><td class="markdownTableBodyNone">LPSPI0_PCS0  </td><td class="markdownTableBodyNone">PTA26  </td><td class="markdownTableBodyNone">LPSPI1_PCS3   </td></tr>
 </table>
 </li>
 </ul>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">LPSPI1  </th><th class="markdownTableHeadNone">S32K144 EVB  </th><th class="markdownTableHeadNone">S32K148 EVB   </th></tr>
-<tr class="markdownTableBody" class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">LPSPI1_PCSx  </td><td class="markdownTableBodyNone">PTB17 PCS3 (to UJA1169)  </td><td class="markdownTableBodyNone">PTA26 PCS0 (to UJA1132)   </td></tr>
-</table>
 <p><br />
 </p><h2>Driver Functions (S32K14x): </h2>
 <table class="markdownTable">
