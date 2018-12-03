@@ -35,6 +35,8 @@
  * =================================================================
  * Initialization example, the LED will turn red if the input
  * voltage does not overcome the given threshold, and green if it does.
+ * Before starting please connect PTC14(output from the potentiometer) to PTA0.
+ * If using the S32K148 EVB, please connect the PTC28 to the PTA0.
  */
 
 #include "device_registers.h"

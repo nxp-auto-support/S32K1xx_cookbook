@@ -67,7 +67,7 @@ void LPSPI1_init_master(void)
 
   LPSPI1->TCR   = LPSPI_TCR_CPHA_MASK
 				  |LPSPI_TCR_PRESCALE(2)
-				  |LPSPI_TCR_PCS(3)
+				  |LPSPI_TCR_PCS(0)
 				  |LPSPI_TCR_FRAMESZ(15);   /* Transmit cmd: PCS3, 16 bits, prescale func'l clk by 4, etc	*/
 											/* CPOL=0: SCK inactive state is low 							*/
 											/* CPHA=1: Change data on SCK lead'g, capture on trail'g edge	*/

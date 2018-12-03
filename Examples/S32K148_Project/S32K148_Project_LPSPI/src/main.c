@@ -60,16 +60,16 @@ void PORT_init (void)
 	 *
 	 * Pin number        | Function
 	 * ----------------- |------------------
-	 * PTB14             | LPSPI1_SCK
-	 * PTB15             | LPSPI1_SIN
-	 * PTB16			 | LPSPI1_SOUT
-	 * PTB17			 | LPSPI1_PCS3
+	 * PTA26             | LPSPI1_PCS0
+	 * PTA27             | LPSPI1_SOUT
+	 * PTA28			 | LPSPI1_SCK
+	 * PTA29			 | LPSPI1_SIN
 	 */
-  PCC->PCCn[PCC_PORTB_INDEX ]|=PCC_PCCn_CGC_MASK; /* Enable clock for PORTB */
-  PORTB->PCR[14]|=PORT_PCR_MUX(3); /* Port B14: MUX = ALT3, LPSPI1_SCK */
-  PORTB->PCR[15]|=PORT_PCR_MUX(3); /* Port B15: MUX = ALT3, LPSPI1_SIN */
-  PORTB->PCR[16]|=PORT_PCR_MUX(3); /* Port B16: MUX = ALT3, LPSPI1_SOUT */
-  PORTB->PCR[17]|=PORT_PCR_MUX(3); /* Port B17: MUX = ALT3, LPSPI1_PCS3 */
+	  PCC->PCCn[PCC_PORTA_INDEX ]|=PCC_PCCn_CGC_MASK; /* Enable clock for PORTB */
+	  PORTA->PCR[26]|=PORT_PCR_MUX(3); /* Port B14: MUX = ALT3, LPSPI1_PCS0 */
+	  PORTA->PCR[27]|=PORT_PCR_MUX(3); /* Port B15: MUX = ALT3, LPSPI1_SOUT */
+	  PORTA->PCR[28]|=PORT_PCR_MUX(3); /* Port B16: MUX = ALT3, LPSPI1_SCK */
+	  PORTA->PCR[29]|=PORT_PCR_MUX(5); /* Port B17: MUX = ALT3, LPSPI1_SIN */
 }
 
 int main(void)

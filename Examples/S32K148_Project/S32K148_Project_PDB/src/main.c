@@ -62,15 +62,15 @@ void PORT_init (void) {
 	 * PTE23             | GPIO [BLUE LED]
 	 */
 
-	PCC-> PCCn[PCC_PORTD_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT D */
+	PCC-> PCCn[PCC_PORTE_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT D */
 
-	PORTD->PCR[PTE21]  =  0x00000100;  /* Port D0: MUX = GPIO */
-	PORTD->PCR[PTE22] =  0x00000100;  /* Port D15: MUX = GPIO */
-	PORTD->PCR[PTE23] =  0x00000100;  /* Port D16: MUX = GPIO */
+	PORTE->PCR[PTE21]  =  0x00000100;  /* Port D0: MUX = GPIO */
+	PORTE->PCR[PTE22] =  0x00000100;  /* Port D15: MUX = GPIO */
+	PORTE->PCR[PTE23] =  0x00000100;  /* Port D16: MUX = GPIO */
 
-	PTD->PDDR |= 1<<PTE21;       	  /* Port D0:  Data Direction= output */
-	PTD->PDDR |= 1<<PTE22;          /* Port D15: Data Direction= output */
-	PTD->PDDR |= 1<<PTE23;          /* Port D16: Data Direction= output */
+	PTE->PDDR |= 1<<PTE21;       	  /* Port D0:  Data Direction= output */
+	PTE->PDDR |= 1<<PTE22;          /* Port D15: Data Direction= output */
+	PTE->PDDR |= 1<<PTE23;          /* Port D16: Data Direction= output */
 }
 void WDOG_disable (void){
   WDOG->CNT=0xD928C520;     /* Unlock watchdog */
@@ -93,7 +93,7 @@ int main(void)
 	SPLL_init_160MHz();    /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
 	NormalRUNmode_80MHz(); /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
 	PORT_init();			/* Initializates GPIO*/
-	ADC_init_HWTrigger(12);/*Initialize the ADC in HW Trigger mode*/
+	ADC_init_HWTrigger(44);/*Initialize the ADC in HW Trigger mode*/
 	PDB0_init();	/*Initialize PDB0*/
 
 	/*!
@@ -116,19 +116,19 @@ void ADC0_IRQHandler(void)
 	{
 		ADC_result=ADC0->R[0];      /* For SW trigger mode, R[0] is used */
 		 if (ADC_result > 3072) {           /* If result > 3.75V */
-		      PTD->PSOR |= 1<<PTE22 | 1<<PTE23;    /* turn off blue, green LEDs */
-		      PTD->PTOR |= 1<<PTE21;              /* turn on red LED */
+		      PTE->PCOR |= (1<<PTE22 | 1<<PTE23);    /* turn off blue, green LEDs */
+		      PTE->PTOR |= (1<<PTE21);              /* turn on red LED */
 		    }
 		    else if (ADC_result > 2048) {      /* If result > 3.75V */
-		      PTD->PSOR |= 1<<PTE21 | 1<<PTE23;    /* turn off blue, red LEDs */
-		      PTD->PTOR |= 1<<PTE22;     	      /* turn on green LED */
+		      PTE->PCOR |= (1<<PTE21 | 1<<PTE23);    /* turn off blue, red LEDs */
+		      PTE->PTOR |= (1<<PTE22);     	      /* turn on green LED */
 		    }
 		    else if (ADC_result >1024) {       /* If result > 3.75V */
-		      PTD->PSOR |= 1<<PTE21 | 1<<PTE22;   /* turn off red, green LEDs */
-		      PTD->PTOR |= 1<<PTE23;     	      /* turn on blue LED */
+		      PTE->PCOR |= (1<<PTE21 | 1<<PTE22);   /* turn off red, green LEDs */
+		      PTE->PTOR |= (1<<PTE23);     	      /* turn on blue LED */
 		    }
 		    else {
-		      PTD->PSOR |= 1<<PTE21 | 1<< PTE22 | 1<<PTE23; /* Turn off all LEDs */
+		      PTE->PCOR |= (1<<PTE21 | 1<< PTE22 | 1<<PTE23); /* Turn off all LEDs */
 		    }
 	}
 }
