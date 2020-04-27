@@ -4,7 +4,7 @@
 > This is an extension of S32K14x Series Cookbook Application Note available on nxp.com
 
 ## Software Examples
-> The table bellow lists all available software examples.
+> The table bellow lists all available software examples:
 
 |    | Software Example                                |
 |----|-------------------------------------------------|
