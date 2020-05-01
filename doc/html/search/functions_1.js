@@ -1,5 +1,11 @@
 var searchData=
 [
-  ['convertadcchan',['convertAdcChan',['../_a_d_c_8c.html#a0a99c41578c6a791057259415890ac24',1,'convertAdcChan(uint16_t adcChan):&#160;ADC.c'],['../_a_d_c_8h.html#ad0261893efd91721d76b2c8d295c68d2',1,'convertAdcChan(uint16_t):&#160;ADC.c']]],
-  ['crc_5f32bits_5fcalculate',['CRC_32bits_calculate',['../crc_8c.html#a41d6d877650983fd0c40c8933e4be85b',1,'CRC_32bits_calculate(uint8_t *data, uint32_t size):&#160;crc.c'],['../crc_8h.html#a41d6d877650983fd0c40c8933e4be85b',1,'CRC_32bits_calculate(uint8_t *data, uint32_t size):&#160;crc.c']]]
+  ['acmp_5finit',['ACMP_Init',['../acmp_8c.html#a88cd5339b55e788214e9fb3c4137b3a4',1,'ACMP_Init(unsigned char vosel):&#160;acmp.c'],['../acmp_8h.html#a88cd5339b55e788214e9fb3c4137b3a4',1,'ACMP_Init(unsigned char vosel):&#160;acmp.c']]],
+  ['adc0_5firqhandler',['ADC0_IRQHandler',['../main__pdb_8c.html#a3611206d185a38b740457a748712c457',1,'main_pdb.c']]],
+  ['adc_5fcalibration_5finit',['ADC_calibration_init',['../_a_d_c_8c.html#ac27380c28d20b6c927922551d67cd743',1,'ADC_calibration_init(int16_t gain, int16_t offset):&#160;ADC.c'],['../_a_d_c_8h.html#ac27380c28d20b6c927922551d67cd743',1,'ADC_calibration_init(int16_t gain, int16_t offset):&#160;ADC.c']]],
+  ['adc_5fchannel_5fconvert',['ADC_channel_convert',['../_a_d_c_8c.html#af76221118c7f520fe574bd6845a07d90',1,'ADC_channel_convert(uint16_t adc_channel):&#160;ADC.c'],['../_a_d_c_8h.html#af76221118c7f520fe574bd6845a07d90',1,'ADC_channel_convert(uint16_t adc_channel):&#160;ADC.c']]],
+  ['adc_5fchannel_5fread',['ADC_channel_read',['../_a_d_c_8c.html#ac3cde85577a5404fd5bc14cf3a06eb34',1,'ADC_channel_read(void):&#160;ADC.c'],['../_a_d_c_8h.html#ac3cde85577a5404fd5bc14cf3a06eb34',1,'ADC_channel_read(void):&#160;ADC.c']]],
+  ['adc_5fconversion_5fcomplete',['ADC_conversion_complete',['../_a_d_c_8c.html#ac1e8aec564becbe003bfca11292ebd0e',1,'ADC_conversion_complete(void):&#160;ADC.c'],['../_a_d_c_8h.html#ac1e8aec564becbe003bfca11292ebd0e',1,'ADC_conversion_complete(void):&#160;ADC.c']]],
+  ['adc_5fhw_5ftrigger_5finit',['ADC_HW_trigger_init',['../_a_d_c_8c.html#a4fe4986f6f5e90ed41f52dca442b2fb9',1,'ADC_HW_trigger_init(int8_t adc_channel):&#160;ADC.c'],['../_a_d_c_8h.html#a4fe4986f6f5e90ed41f52dca442b2fb9',1,'ADC_HW_trigger_init(int8_t adc_channel):&#160;ADC.c']]],
+  ['adc_5finit',['ADC_init',['../_a_d_c_8c.html#a4b4a2ddcb45df0c8497c47d4ed800e2a',1,'ADC_init(void):&#160;ADC.c'],['../_a_d_c_8h.html#a4b4a2ddcb45df0c8497c47d4ed800e2a',1,'ADC_init(void):&#160;ADC.c']]]
 ];

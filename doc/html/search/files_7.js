@@ -1,10 +1,16 @@
 var searchData=
 [
   ['page_5fadc_2edox',['page_adc.dox',['../page__adc_8dox.html',1,'']]],
+  ['page_5fadc_5fflexscan_2edox',['page_adc_flexscan.dox',['../page__adc__flexscan_8dox.html',1,'']]],
+  ['page_5fadccal_2edox',['page_adccal.dox',['../page__adccal_8dox.html',1,'']]],
   ['page_5fcanfd_2edox',['page_canfd.dox',['../page__canfd_8dox.html',1,'']]],
+  ['page_5fcanfdpadding_2edox',['page_canfdpadding.dox',['../page__canfdpadding_8dox.html',1,'']]],
   ['page_5fcmp_2edox',['page_cmp.dox',['../page__cmp_8dox.html',1,'']]],
   ['page_5fcrc_2edox',['page_crc.dox',['../page__crc_8dox.html',1,'']]],
   ['page_5fdma_2edox',['page_dma.dox',['../page__dma_8dox.html',1,'']]],
+  ['page_5fdma_5flc_2edox',['page_dma_lc.dox',['../page__dma__lc_8dox.html',1,'']]],
+  ['page_5fdma_5fsg_2edox',['page_dma_sg.dox',['../page__dma__sg_8dox.html',1,'']]],
+  ['page_5fedma_5fadc_5fcan_2edox',['page_eDMA_ADC_CAN.dox',['../page__e_d_m_a___a_d_c___c_a_n_8dox.html',1,'']]],
   ['page_5fewm_2edox',['page_ewm.dox',['../page__ewm_8dox.html',1,'']]],
   ['page_5fflexcan_2edox',['page_flexcan.dox',['../page__flexcan_8dox.html',1,'']]],
   ['page_5fflexio_2edox',['page_flexio.dox',['../page__flexio_8dox.html',1,'']]],
@@ -12,12 +18,15 @@ var searchData=
   ['page_5fhello_5fclocks_2edox',['page_hello_clocks.dox',['../page__hello__clocks_8dox.html',1,'']]],
   ['page_5fhello_5fints_2edox',['page_hello_ints.dox',['../page__hello__ints_8dox.html',1,'']]],
   ['page_5fhello_5fworld_2edox',['page_hello_world.dox',['../page__hello__world_8dox.html',1,'']]],
+  ['page_5flcd_2edox',['page_lcd.dox',['../page__lcd_8dox.html',1,'']]],
   ['page_5flpi2c_2edox',['page_lpi2c.dox',['../page__lpi2c_8dox.html',1,'']]],
   ['page_5flpspi_2edox',['page_lpspi.dox',['../page__lpspi_8dox.html',1,'']]],
   ['page_5flptmr_2edox',['page_lptmr.dox',['../page__lptmr_8dox.html',1,'']]],
   ['page_5flpuart_2edox',['page_lpuart.dox',['../page__lpuart_8dox.html',1,'']]],
   ['page_5fpdb_2edox',['page_pdb.dox',['../page__pdb_8dox.html',1,'']]],
   ['page_5frtc_2edox',['page_rtc.dox',['../page__rtc_8dox.html',1,'']]],
+  ['page_5ftouch_2edox',['page_touch.dox',['../page__touch_8dox.html',1,'']]],
+  ['page_5fwdogwm_2edox',['page_wdogwm.dox',['../page__wdogwm_8dox.html',1,'']]],
   ['pdb_2ec',['pdb.c',['../pdb_8c.html',1,'']]],
   ['pdb_2eh',['pdb.h',['../pdb_8h.html',1,'']]]
 ];

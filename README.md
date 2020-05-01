@@ -27,6 +27,15 @@
 | 17 | External Watchdog Monitor (EWM)                 |
 | 18 | Cyclic Redundancy Check (CRC)                   |
 | 19 | Synchronous Audio Interface (SAI)               |
+| 20 | ADC Calibration					               |
+| 21 | CAN-FD Padding      					           |
+| 22 | eDMA Scatter Gather          				   |
+| 23 | eDMA Linking Channel            				   |
+| 24 | Watchdog Window Mode (WDOG)    	               |
+| 25 | Touch-Sensing (GPIO + ADC)           		   |
+| 26 | LCD & TOUCH TFT Shield Display (LPSPI)          |
+| 27 | ADC Flexible Scan  				               |
+| 28 | ADC + DMA + FlexCAN 					           |
 
 ## License
 > The 3-Clause BSD License.

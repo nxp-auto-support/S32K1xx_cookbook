@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['mainpage_2edox',['mainpage.dox',['../mainpage_8dox.html',1,'']]],
-  ['msg_5fbuf_5fsize',['MSG_BUF_SIZE',['../_flex_c_a_n_8c.html#a8b8af8bedcac87c0d3c68634448b94a7',1,'MSG_BUF_SIZE():&#160;FlexCAN.c'],['../_flex_c_a_n___f_d_8c.html#a8b8af8bedcac87c0d3c68634448b94a7',1,'MSG_BUF_SIZE():&#160;FlexCAN_FD.c']]]
+  ['gain',['gain',['../main__adc__cal_8c.html#a7c07aa50dffd011a3b181ea4ecb54f8e',1,'main_adc_cal.c']]],
+  ['gpio_5fconfig',['GPIO_Config',['../main__dma__adc__can_8c.html#a56c8ff165146f2f845a0bf90e3eacd39',1,'main_dma_adc_can.c']]],
+  ['green',['GREEN',['../_t_f_t___l_c_d_8h.html#acfbc006ea433ad708fdee3e82996e721',1,'TFT_LCD.h']]]
 ];

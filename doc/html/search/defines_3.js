@@ -1,5 +1,23 @@
 var searchData=
 [
-  ['rtc_5falarm_5fperiod',['RTC_ALARM_PERIOD',['../_r_t_c_8h.html#a2e9c5447bd2570d0e91418035ed8c3fb',1,'RTC.h']]],
-  ['rtc_5finitial_5fsec_5fvalue',['RTC_INITIAL_SEC_VALUE',['../_r_t_c_8h.html#a94ff1093769000ce6e1feece244788ca',1,'RTC.h']]]
+  ['elec1',['ELEC1',['../_t_o_u_c_h1_8h.html#a47c7e1739304713bf484b90fbcb93f9a',1,'TOUCH1.h']]],
+  ['elec1_5fadc',['ELEC1_ADC',['../_t_o_u_c_h1_8h.html#addc40c7e274ed19b14ae96260d6ca559',1,'TOUCH1.h']]],
+  ['elec1_5fadc_5fchannel',['ELEC1_ADC_CHANNEL',['../_t_o_u_c_h1_8h.html#a97b463124e0555e3a0106e2027de84fe',1,'TOUCH1.h']]],
+  ['elec1_5fcext_5fgpio_5fpin',['ELEC1_CEXT_GPIO_PIN',['../_t_o_u_c_h1_8h.html#a42d494a0cdc2a33f0038f4fc2278be39',1,'TOUCH1.h']]],
+  ['elec1_5fdist_5fcharge_5fdelay',['ELEC1_DIST_CHARGE_DELAY',['../_t_o_u_c_h1_8h.html#a8e32abfb5c008274e884910830bab779',1,'TOUCH1.h']]],
+  ['elec1_5felec_5fgpio_5fpin',['ELEC1_ELEC_GPIO_PIN',['../_t_o_u_c_h1_8h.html#ab81f836a47871b3b26decb2bf644d424',1,'TOUCH1.h']]],
+  ['elec1_5fgpio',['ELEC1_GPIO',['../_t_o_u_c_h1_8h.html#a047476648cc160c9e06b7318a7a73584',1,'TOUCH1.h']]],
+  ['elec1_5fport',['ELEC1_PORT',['../_t_o_u_c_h1_8h.html#a5072c6fec6339adb3a809fd93504c898',1,'TOUCH1.h']]],
+  ['elec1_5fport_5fmask',['ELEC1_PORT_MASK',['../_t_o_u_c_h1_8h.html#a95a62fe492e7a7a4b1de77502f54b190',1,'TOUCH1.h']]],
+  ['elec1_5ftouched_5flimit_5fvalue',['ELEC1_TOUCHED_LIMIT_VALUE',['../_t_o_u_c_h1_8h.html#abcc5dc0fee1cc7b59d09854113b1efef',1,'TOUCH1.h']]],
+  ['elec2',['ELEC2',['../_t_o_u_c_h2_8h.html#a41c9248d385465903d88a033cfab2122',1,'TOUCH2.h']]],
+  ['elec2_5fadc',['ELEC2_ADC',['../_t_o_u_c_h2_8h.html#ae74e7f2452f1c7a60e77f209a5b4123a',1,'TOUCH2.h']]],
+  ['elec2_5fadc_5fchannel',['ELEC2_ADC_CHANNEL',['../_t_o_u_c_h2_8h.html#a78b4ab672e2ef913a299c5bb837e5bcf',1,'TOUCH2.h']]],
+  ['elec2_5fcext_5fgpio_5fpin',['ELEC2_CEXT_GPIO_PIN',['../_t_o_u_c_h2_8h.html#a6e3b1d11d63ca6bf6a0f4bd2a77e6862',1,'TOUCH2.h']]],
+  ['elec2_5fdist_5fcharge_5fdelay',['ELEC2_DIST_CHARGE_DELAY',['../_t_o_u_c_h2_8h.html#ac9cded2f36da1d6c75a397ae92cb992f',1,'TOUCH2.h']]],
+  ['elec2_5felec_5fgpio_5fpin',['ELEC2_ELEC_GPIO_PIN',['../_t_o_u_c_h2_8h.html#a9deb42d9c11f9f6d10e45e233468a4a7',1,'TOUCH2.h']]],
+  ['elec2_5fgpio',['ELEC2_GPIO',['../_t_o_u_c_h2_8h.html#af955da136ea30162c0e0db2798e19a04',1,'TOUCH2.h']]],
+  ['elec2_5fport',['ELEC2_PORT',['../_t_o_u_c_h2_8h.html#a685e1d58c3f3d5f92bd3cd6502c20f35',1,'TOUCH2.h']]],
+  ['elec2_5fport_5fmask',['ELEC2_PORT_MASK',['../_t_o_u_c_h2_8h.html#ab4fba499431e63677a72bf260d8410d0',1,'TOUCH2.h']]],
+  ['elec2_5ftouched_5flimit_5fvalue',['ELEC2_TOUCHED_LIMIT_VALUE',['../_t_o_u_c_h2_8h.html#a9297f5418a0e8127ecee0df6cd1d325c',1,'TOUCH2.h']]]
 ];

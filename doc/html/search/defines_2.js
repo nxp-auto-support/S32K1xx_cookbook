@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['poly',['POLY',['../crc_8c.html#aa55bbb692b1c5e89d3a5c3bee1ce8399',1,'crc.c']]]
+  ['doff',['DOFF',['../main__dmasg_8c.html#a435b5f89aa442dc492e806f754a205db',1,'main_dmasg.c']]]
 ];

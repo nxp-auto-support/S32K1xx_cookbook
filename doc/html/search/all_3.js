@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['example_20operation',['Example operation',['../canexmpl.html',1,'page_flexcan']]],
-  ['ewm_2ec',['ewm.c',['../ewm_8c.html',1,'']]],
-  ['ewm_2eh',['ewm.h',['../ewm_8h.html',1,'']]],
-  ['ewm_5finit',['EWM_init',['../ewm_8c.html#a091c6076d992977208a2eaf1ac78fed9',1,'EWM_init(void):&#160;ewm.c'],['../ewm_8h.html#a091c6076d992977208a2eaf1ac78fed9',1,'EWM_init(void):&#160;ewm.c']]],
-  ['external_20watchdog_20monitor_20_28ewm_29',['External Watchdog Monitor (EWM)',['../page_ewm.html',1,'index']]]
+  ['can0_5fored_5f0_5f15_5fmb_5firqhandler',['CAN0_ORed_0_15_MB_IRQHandler',['../main__dma__adc__can_8c.html#ab900d0a4863d277c705460ee002ddb84',1,'main_dma_adc_can.c']]],
+  ['can_20fd_20initialization_3a',['CAN FD Initialization:',['../canfd_init.html',1,'page_canfdpadding']]],
+  ['can_20fd_20message_20buffer_20structure',['CAN FD message buffer structure',['../canfd_mbs.html',1,'page_canfdpadding']]],
+  ['can_202_2e0_20timing_20calculations',['CAN 2.0 timing calculations',['../cantiming.html',1,'page_flexcan']]],
+  ['citer_5felinkno',['CITER_ELINKNO',['../struct_t_c_d__t.html#a7bd8806aa46b4d7599ebe92d75d14dcc',1,'TCD_t']]],
+  ['citer_5felinkyes',['CITER_ELINKYES',['../struct_t_c_d__t.html#a9f14988c1c581542b649792c0be80685',1,'TCD_t']]],
+  ['clocks_5fand_5fmodes_2ec',['clocks_and_modes.c',['../clocks__and__modes_8c.html',1,'']]],
+  ['clocks_5fand_5fmodes_2eh',['clocks_and_modes.h',['../clocks__and__modes_8h.html',1,'']]],
+  ['cmp0_5firqhandler',['CMP0_IRQHandler',['../main__cmp_8c.html#a0f92873e5d7054dd3499c3a8811a65e5',1,'main_cmp.c']]],
+  ['condition1_5fpin12',['Condition1_Pin12',['../main__dma__adc__can_8c.html#af1ec61e5206e82b6cd70a05d82838ddf',1,'main_dma_adc_can.c']]],
+  ['condition1_5fpin13',['Condition1_Pin13',['../main__dma__adc__can_8c.html#aa31bd23d6487a3503f5d7439e239ce77',1,'main_dma_adc_can.c']]],
+  ['condition2_5fpin12',['Condition2_Pin12',['../main__dma__adc__can_8c.html#a71d4ae95e56b29dfb5cda8b197ffe82e',1,'main_dma_adc_can.c']]],
+  ['condition2_5fpin13',['Condition2_Pin13',['../main__dma__adc__can_8c.html#aaacc618d39765b23da3bcce9c1c7d91a',1,'main_dma_adc_can.c']]],
+  ['crc_2ec',['crc.c',['../crc_8c.html',1,'']]],
+  ['crc_2eh',['crc.h',['../crc_8h.html',1,'']]],
+  ['crc_5f32bits_5fcalculate',['CRC_32bits_calculate',['../crc_8c.html#a41d6d877650983fd0c40c8933e4be85b',1,'CRC_32bits_calculate(uint8_t *data, uint32_t size):&#160;crc.c'],['../crc_8h.html#a41d6d877650983fd0c40c8933e4be85b',1,'CRC_32bits_calculate(uint8_t *data, uint32_t size):&#160;crc.c']]],
+  ['csr',['CSR',['../struct_t_c_d__t.html#af2e725197651b1194d5681acea948611',1,'TCD_t']]],
+  ['currentcaptureval',['CurrentCaptureVal',['../_f_t_m_8c.html#aaea68aee6d4960d8944906f350ee50e5',1,'FTM.c']]],
+  ['cyan',['CYAN',['../_t_f_t___l_c_d_8h.html#ad243f93c16bc4c1d3e0a13b84421d760',1,'TFT_LCD.h']]],
+  ['can_20flexible_20data_2drate',['CAN Flexible Data-Rate',['../page_canfd.html',1,'index']]],
+  ['can_20flexible_20padding',['CAN Flexible Padding',['../page_canfdpadding.html',1,'index']]],
+  ['comparator_20_28cmp_29',['Comparator (CMP)',['../page_cmp.html',1,'index']]],
+  ['cyclic_20redundancy_20check_20_28crc_29',['Cyclic Redundancy Check (CRC)',['../page_crc.html',1,'index']]]
 ];
