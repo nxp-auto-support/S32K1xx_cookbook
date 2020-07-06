@@ -1,0 +1,16 @@
+core=S32K116_M0plus_1
+coreType=S32K116_M0plus
+eclipse.preferences.version=1
+flashSize=0
+flashStart=0
+fpu=None
+io=noio
+language=c
+library=ewl_c9x
+pinSet=
+processor=S32K116
+productVersion=v2018.R1 b180326 
+ramSize=0
+ramStart=1ffffc00
+toolchainVersion=
+wizardVersion=1.0.0.201808141537
